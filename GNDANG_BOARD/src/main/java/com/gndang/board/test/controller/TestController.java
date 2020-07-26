@@ -15,6 +15,7 @@ import com.gndang.board.test.vo.UserVO;
 @RestController
 @RequestMapping(value = "/danggn")
 public class TestController {
+
 	@Autowired
 	private TestService testService;
 	
